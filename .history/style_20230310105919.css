@@ -1,0 +1,528 @@
+body{
+ background-color: white;
+}
+/* navbar style  */
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    display: block;
+    font-family: 'Montserrat';
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+    align-self: center;
+    height: 117px;
+    font-size: 18px;
+}
+nav{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+/* navbar style end */
+/* accueil style  */
+.accueil{
+    width: 100%;
+    height: 691px;
+    top: 116px;
+  
+    background: url("pour web.jpg");
+    filter: drop-shadow(0px 4px 0px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.accueil div{
+    width: 100%;
+    height: 100%;
+    background: rgba(81, 181, 161, 0.55);
+    backdrop-filter: blur(2px);
+}
+/* logo bakeli */
+.accueil img{
+    background-color: white;
+    width: 150.64px;
+    height: 86.78px;
+    border-radius: 10px;
+    
+}
+/* le titre */
+.accueil h2{
+    font-family: 'Roboto';
+    padding: 10px;
+    background-color: #605555;
+    color: white;
+    font-weight: normal;
+}
+/* le texte en miniature */
+.accueil small{
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+/* accueil style end */
+/* main style */
+/* premier bloc */
+.container_1{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    height: 350px;
+}
+/* titre sous les cercles */
+.circle h2{
+    display: inline-block;
+}
+/* text sous les titres  */
+.circle small{
+    display: inline-block;
+}
+/* style commun a tout les cercles */
+.circle{
+    flex-direction: column;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+}
+.circle_1{
+    box-sizing: border-box;
+    width: 149.11px;
+    height: 150px;
+    border-radius:100px;
+    border: 2px solid rgb(81, 181, 161);
+    background: url("programmation.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    align-self: center;
+    
+}
+.circle_2{
+    box-sizing: border-box;
+    width: 149.11px;
+    height: 150px;
+    border-radius:100px;
+    border: 2px solid rgb(81, 181, 161);
+    background: url("web-design.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    align-self: center;
+    
+}
+.circle_3{
+    box-sizing: border-box;
+    width: 149.11px;
+    height: 150px;
+    border-radius:100px;
+    border: 2px solid rgb(81, 181, 161);
+    background: url("marketing.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    align-self: center;
+    
+}
+/* premier bloc style end */
+/* deuxieme bloc */
+.container_2{
+    background: rgba(196, 196, 196, 0.35);
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+/* titre du bloc */
+.container_2 h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+/* style du text  */
+.container_2 .text span{
+    display: block;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.container_2 .text{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+/* troisieme bloc les grides */
+.grid{
+    display: grid;
+    height: 580px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 290px 290px;
+}
+/* bloc 2 style end */
+/* les elements respectifs du grid */
+.one{
+    display: flex;
+    background: #83CBCF;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.two{
+    background: #67B4CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.three{
+    background: #717967;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    background: #649A97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five{
+    background: #827263;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six{
+    background: #35A0AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seven{
+    background: #237792;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eight{
+    background: #A5C0AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* les image de chaque element */
+.one img{
+    width: 160px;
+    height: 99px;
+}
+.two img{
+    width: 203px;  
+    height: 203px;
+
+}
+.three img{
+    height: 121px;
+    width: 216.07142639160156px;
+}
+.four img{
+    height: 133px;
+    width: 133px;
+}
+.five img{
+    height: 147px;
+    width: 264.758056640625px;
+}
+.six img{
+    height: 133px;
+    width: 126.38008117675781px;
+    border-radius: 0px;
+
+}
+.seven img{
+    height: 107px;
+    width: 187.88858032226562px;
+    border-radius: 0px;
+}
+.eight img{
+    height: 92px;
+    width: 162.76922607421875px;
+    border-radius: 0px;
+}
+/* grid style end */
+/* quatrieme bloc */
+.container_3{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+
+}
+.haut{
+    width:100% ;
+    margin: auto;
+}
+.haut h2{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.haut p{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.progress{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 424px 424px;
+    grid-template-rows: 100px 100px;
+    justify-content: space-around;
+    justify-items: space-around;
+    row-gap: 100px;
+}
+.bar::-webkit-progress-bar{
+    -webkit-appearance: none;
+    background: #C4C4C4B2;
+    border-radius: 10px;
+    
+}
+.bar::-webkit-progress-value{
+    appearance: none;
+    background: #A5C0AD;
+    border-radius: 10px;
+    
+}
+progress{
+    appearance: none;
+    width: 424px;
+    height: 13px;
+    border-radius: 10px;
+
+}
+.other{
+    visibility: hidden;
+}
+.progress_elem p span{
+    display: inline-block;
+}
+.progress_elem p{
+    display: flex;
+    justify-content: space-between;
+
+}
+.progress_title{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    
+}
+.percent{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+}
+.container_4{
+    padding-top: 68px;
+    width: 100%;
+    height: 829px;
+    background: #A5C0AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container_4 h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.container_4 p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 36px;
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    height: 400px;
+    
+}
+.teammember{
+    width: 20%;
+}
+.teammember img{
+    width: 100%;
+    height: 404px;
+}
+.teammember:hover{
+    padding: 20px;
+}
+.container_5{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+.logo_bas{
+    width: 63.85px;
+    height: 36.78px;
+    background: url("g16.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.text_c5{
+    margin-top: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+}
+.text_2_c5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.container_6{
+    width: 100%;
+    background: #C4C4C459;
+
+}
+.container_6 h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 59px;
+
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 51px;
+}
+.infos p span{
+    display: block;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #202020;
+
+}
+.infos p{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.icone{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 51px;
+}
+.facebook{
+    width: 10px;
+    height: 20px;
+    background: url("facebook.png");
+
+}
+.twitter{
+    width: 20px;
+    height: 16px;
+    background: url("twitter.png");
+}
+.linkedin{
+    width: 20px;
+    height: 20px;
+    background: url("linkedin.png");
+
+}
+.copyright{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #414141;
+    text-align: center;
+    padding-bottom: 86px;
+    padding-top: 91px;
+
+}

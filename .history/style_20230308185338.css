@@ -1,0 +1,13 @@
+.accueil{
+    width: 100%;
+    height: 691px;
+    background-color: #51B5A18C;
+    position: absolute;
+    width: 1440px;
+    height: 691px;
+    left: 0px;
+    top: 116px;
+
+    background: rgba(81, 181, 161, 0.55);
+    backdrop-filter: blur(2px);
+    }
